@@ -21,7 +21,7 @@ The file Portfolio_Project_2.ipynb includes the following steps:
 
 * Flexible analysis: Calculations are performed dynamically using arrays and loops, without hardcoding metric names or values.
 
-📊 **View: Aggregated Event-Level A/B Test Data**
+📊 **View: Aggregated Event-Level A/B Test Data**  
 This view prepares the foundational dataset for statistical analysis of multiple A/B tests across various behavioral metrics. It includes:
 
 `test_number`: identifier of the test
@@ -44,7 +44,7 @@ This view prepares the foundational dataset for statistical analysis of multiple
 This view is created by filtering and aggregating raw event logs by event_name and test_group, grouped per test number and metric. It uses Python’s pandas operations for flexible, dynamic grouping without hardcoded metric handling.  
 
 
-📊 **Query: Statistical Comparison of Conversion Rates**
+📊 **Query: Statistical Comparison of Conversion Rates**  
 The query layer operates on top of the view and calculates the statistical impact of each tested metric:
 
 `conversion_rate`: 	calculated conversion rate (numerator / denominator) for the test group
