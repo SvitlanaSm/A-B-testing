@@ -1,7 +1,7 @@
 # A-B-testing
 This repository contains a portfolio project focused on A/B testing using Python, with data visualization in Tableau. The goal of this study is to perform a statistical analysis of the impact of changes in a web product based on A/B test results.
 
-🔍 **Project Overview**
+🔍 **Project Overview**  
 The file Portfolio_Project_2.ipynb includes the following steps:
 
 * Loading and preprocessing of A/B test data
